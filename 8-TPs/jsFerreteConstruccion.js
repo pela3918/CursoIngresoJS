@@ -45,14 +45,14 @@ function Materiales ()
 		areacirculo=(Math.PI*radio*radio);
 		if(arearectangulo>0)
 		{
-			cemento=(arearectangulo)/2;
-			cal=(arearectangulo)/3;
+			cemento=Math.round( (arearectangulo)/2);
+			cal= Math.round((arearectangulo)/3);
 			alert("se necesitan" +cemento+ " bolsas de cemento y " +cal+ "bolsas de cal");
 		}
 		else if (areacirculo>0)
 		{
-			cemento=(areacirculo)/2;
-			cal=(areacirculo)/3;
+			cemento=Math.round((areacirculo))/2;
+			cal=Math.round((areacirculo))/3;
 			alert("se necesitan" +cemento+ " bolsas de cemento y " +cal+ "bolsas de cal");
 		}	
 
