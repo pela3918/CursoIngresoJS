@@ -21,7 +21,7 @@ function Mostrar()
 				maximo=ventas;
 				minimo=ventas;
 				ventaminima=minimo;
-				ventamaxima=minimo;			
+				ventamaxima=maximo;			
 
 			}
 			else

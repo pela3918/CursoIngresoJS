@@ -1,0 +1,76 @@
+function Mostrar()
+{
+
+	var contador=0;
+	var positivo=0;
+	var negativo=1;
+	var numero;
+	var respuesta;
+	var numeropar;
+	var contadornumeropar=0;
+	var acumulador=0;
+	var numerominimo;
+	var numeromaximo;
+	var maximo;
+	var minimo;
+	var promedio;
+	
+	
+	while(respuesta!="no" )
+	{
+		
+		numero=prompt("Ingrese numero");
+		numero=parseInt(numero);
+
+		while(numero<0)
+		{
+			numero=prompt("reingrese numero");
+			numero=parseInt(numero);
+
+		}		
+		if(numero%2==0)
+		{	
+			
+			contadornumeropar++;
+		}		
+
+		if(contador==0)
+		{
+			maximo=numero;			
+			minimo=numero;
+				
+		}
+		else
+		{			 
+				 	
+			if(numero>maximo)
+			{
+				 		
+				 maximo=numero;
+				 numeromaximo=numero;
+
+			}	
+			if(numero<minimo)
+			{
+				 minimo=numero;
+				 numerominimo=numero;
+
+			}
+
+
+			acumulador=acumulador+numero;
+		}	
+			promedio=(acumulador/contador);
+			contador++;
+			respuesta=prompt('Para salir teclee no');
+	}		
+
+document.write("la cantidad de numeros pares es :"+contadornumeropar+ "<br>");
+document.write("el maximo es  :"+numeromaximo+"<br>");
+document.write("el minimo es  :"+numerominimo+"<br>");
+document.write("la suma es  :"+acumulador+"<br>");
+document.write("el promedio es  :"+promedio+"<br>");
+
+
+
+} //FIN DE LA FUNCIÓN
