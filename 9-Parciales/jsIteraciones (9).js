@@ -10,7 +10,7 @@ function Mostrar()
 		var ventaminima;
 		
 
-		while(contador<24 && respuesta!='no')
+		while(contador<24 && respuesta!='no')// EJERCCIO 6 NIVEL 3
 		{		
 			ventas=prompt("ingrese ventas ");
 			ventas=parseInt(ventas);

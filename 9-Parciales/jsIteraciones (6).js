@@ -16,7 +16,7 @@ function Mostrar()
 	var acumuladorvarones=0;
 
 
-	while(contador<100 && respuesta!="no")
+	while(contador<100 && respuesta!="no")//EJERCIO 7 NIVEL 4
 	{
 		
 

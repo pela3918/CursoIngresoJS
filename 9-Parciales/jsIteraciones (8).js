@@ -16,7 +16,7 @@ function Mostrar()
 	var promedio;
 	
 	
-	while(respuesta!="no" )
+	while(respuesta!="no" )//EJERCIO 8 NIVEL 5
 	{
 		
 		numero=prompt("Ingrese numero");

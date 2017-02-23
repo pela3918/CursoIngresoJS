@@ -11,7 +11,7 @@ function PrecioFinal ()
 		var Neto;		
 		var iva21;
 		var Total;
-		Precio= prompt("inrgese precio producto");
+		Precio= prompt("inrgese precio producto");// EJERCICIO 2 NIVEL 1
 		Precio=parseInt(Precio);		
 		Neto=(Precio);
 		iva21=(((Precio)*21)/100);

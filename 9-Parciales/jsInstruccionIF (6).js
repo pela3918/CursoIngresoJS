@@ -1,6 +1,6 @@
 function Mostrar()
 {
-		var numerouno ;
+		var numerouno ;// EJERCICIO 4 NIVEL 2
 		var numerodos;
 		var producto;
 		var resta;

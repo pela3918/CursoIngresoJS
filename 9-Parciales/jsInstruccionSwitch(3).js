@@ -5,7 +5,7 @@ var diadelasemana;
 
 diadelasemana=prompt("ingrese un dia de la semana");
 
-	switch (diadelasemana)
+	switch (diadelasemana)// EJERCICIO 5 NIVEL 2
 	{
 		case "Sabado":
 		alert("Es finde semana");

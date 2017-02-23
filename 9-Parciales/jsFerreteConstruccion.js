@@ -10,7 +10,7 @@ function Rectangulo ()
 		var Ancho;
 		var basecuadrado ;
 		var perimetocuadrado ;
-		var circulo;
+		var circulo;// ejercicio 1 NIVEL 1
 		var materiales;
 		Largo=document.getElementById('Largo').value;
 		Ancho=document.getElementById('Ancho').value;
@@ -33,7 +33,7 @@ function Materiales ()
 		Largo=parseInt(Largo);
 		Ancho=parseInt(Ancho);
 		perimetocuadrado=(Largo*4);
-		metroalambre=perimetocuadrado*3
+		metroalambre=perimetocuadrado*3 // EJERCICIO 3 NIVEL 1
 		alert("se necesita "+metroalambre+"metros de alambre");		
 			
 		}	
