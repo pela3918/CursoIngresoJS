@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491259256 source:d:\alejandroluna\ejemplo arrray\main.c
+	<stdio.h>
+	<stdlib.h>
+
